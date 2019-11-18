@@ -1,4 +1,34 @@
-
 .normal {
-  background: #79F2A8;
+  background: #79f2a8;
+}
+.table-wrapper {
+  width: 80%;
+  margin: 50px auto;
+  border: 1px solid #666;
+}
+.table-wrapper td,
+th {
+  padding: 8px;
+}
+.add-btn {
+  text-align: center;
+  border-top: 1px solid #666;
+  cursor: pointer;
+  padding: 5px;
+}
+td .left {
+  border-right: 1px solid #666;
+}
+td :global(.ant-col) > div {
+  padding: 5px;
+  box-sizing: border-box;
+}
+td :global(.ant-row:not(:nth-last-child(2)) .ant-col)> div {
+  border-bottom: 1px solid #666;
+}
+td :global(.ant-row:not(:nth-last-child(2)) .ant-col) > div {
+  border-bottom: 1px solid #666;
+}
+.nowrap {
+  white-space: nowrap;
 }
