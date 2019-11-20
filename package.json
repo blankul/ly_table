@@ -4,7 +4,11 @@
   "description": "老杨的table",
   "main": "index.js",
   "dependencies": {
+    "anime": "^0.1.2",
+    "animejs": "^3.1.0",
     "antd": "^3.25.2",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
     "umi": "^2.11.3",
     "umi-plugin-react": "^1.14.2"
   },

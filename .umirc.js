@@ -1,25 +1,26 @@
 export default {
   plugins: [
     [
-      'umi-plugin-react',
+      "umi-plugin-react",
       {
         dva: {
-          immer: true,
+          immer: true
         },
+        sass: {},
         antd: true,
         routes: {
-          exclude: [/models\//],
+          exclude: [/models\//]
         },
-        polyfills: ['ie9'],
+        polyfills: ["ie9"],
         locale: {},
-        library: 'react',
+        library: "react",
         dll: {
-          exclude: [],
+          exclude: []
         },
         pwa: true,
         hd: false,
         fastClick: true,
-        title: 'default title',
+        title: "default title",
         // chunks: ['vendor', 'umi'],
         scripts: [
           // { src: 'http://cdn/a.js' },
@@ -27,9 +28,9 @@ export default {
           // { content: `alert('a');` },
         ],
         headScripts: [],
-        metas: [{ charset: 'utf-8' }],
+        metas: [{ charset: "utf-8" }]
         // links: [{ rel: 'stylesheet', href: 'http://cdn/a.css' }],
-      },
-    ],
-  ],
+      }
+    ]
+  ]
 };

@@ -17,6 +17,13 @@ const routes = [
     _title_default: 'default title',
   },
   {
+    path: '/path',
+    exact: true,
+    component: require('../path.js').default,
+    _title: 'default title',
+    _title_default: 'default title',
+  },
+  {
     component: () =>
       React.createElement(
         require('/Users/blankulhu/code/ly_table/node_modules/umi-build-dev/lib/plugins/404/NotFound.js')
